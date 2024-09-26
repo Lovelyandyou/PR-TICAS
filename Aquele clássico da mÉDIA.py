@@ -1,0 +1,12 @@
+nota = float(input('Primeira nota: '))
+nota2 = float(input('Segunda nota: '))
+média = (nota + nota2) / 2
+
+print('Tirando {:.1f} e {:.1f}, a média do aluno é {:.1f}'.format(nota, nota2, média))
+
+if 7 > média>= 5:
+    print('O aluno está de Recuperação')
+elif média < 5:
+    print('O aluno está Reprovado')
+elif média >= 7:
+     print('O aluno está Aprovado')
